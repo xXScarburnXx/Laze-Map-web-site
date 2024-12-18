@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <title>productos</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios </title>
@@ -25,9 +26,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     color: #333;
+    background-color: #5bada9;
 }
 
-/* Encabezado */
+
 .header {
     background-image: url(./images/Textura.png);
     background-color:#5bada9;
@@ -60,7 +62,7 @@ body {
 }
 
 
-/* Contenedor principal */
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -134,25 +136,25 @@ body {
     }
 
     .image-gallery img {
-        width: 250px;
+        width:50vw;
     }
 }
 
 /* Media Queries para pantallas medianas */
 @media (min-width: 768px) and (max-width: 1023px) {
     .service-card {
-        width: 45%;
+        width: 60%;
     }
 }
 
 /* Media Queries para pantallas pequeñas */
 @media (max-width: 767px) {
     .service-card {
-        width: calc(100% - 40px);
+        width: 50vw;
     }
 
     .image-gallery img {
-        width: 150px;
+        width: 50vw;
     }
 
     h1{
@@ -160,51 +162,28 @@ body {
     }
 }
 
-.button-footer
-{
+.button-footer{
     padding-top: 2%;
 }
     </style>
 </head>
-<body>
-    <header class="header">
+
+<header class="header">
         
-        <h1 >Nuestros Servicios</h1>
-    </header>
-
-    <section class="services">
-        <div class="service-card">
-            <h2>Tratamiento con células AGF</h2>
-            <p>Este tratamiento utiliza proteínas naturales que estimulan la regeneración celular, acelerando el proceso de reparación de la piel.</p>
-        </div>
-
-        <div class="service-card">
-            <h2>Tratamientos de radiofrecuencia sublativa</h2>
-            <p> Procedimiento que utiliza energía de radiofrecuencia fraccionada para calentar las capas más profundas de la piel, estimulando la producción de colágeno.</p>
-        </div>
-
-        <div class="service-card">
-            <h2>Microdermoabrasión</h2>
-            <p> Técnica de exfoliación mecánica no invasiva que elimina las células muertas de la superficie de la piel mediante la aplicación de microcristales o puntas de diamante.</p>
-        </div>
-
-
-        <div class="service-card">
-            <h2>Tratamiento Ematrix</h2>
-            <p>El tratamiento Ematrix es un procedimiento no invasivo que utiliza radiofrecuencia fraccionada para rejuvenecer la piel, estimulando la producción de colágeno y mejorando cicatrices, arrugas y textura.</p>
-        </div>
-
+    <h1 >Nuestros Productos</h1>
+</header>
 
 
     <section class="product-images background-color: #aee5cd;">
         <div class="image-gallery">
-            <img src="images/servicio 1.png" alt="Zapatilla lazemap 1">
-            <img src="images/servicio 2.png" alt="Zapatilla lazemap 2">
-            <img src="images/servicio 3.png" alt="Zapatilla lazemap 3">
-            <img src="images/servicio 4.png" alt=>
+            <img src="images/pro 1.jpg" alt="Zapatilla lazemap 2">
+            <img src="images/pro 2.jpg" alt="Zapatilla lazemap 3">
+            <img src="images/pro 3.jpg" alt=>
+            <img src="images/pro 4.jpg" alt="Zapatilla lazemap 3">
+            <img src="images/pro 5.jpg" alt=>
 
         </div>
-    <section class="button-footer ">
+    <section class="button-footer">
         <a href="index.html " class="button-header ">Volver al Inicio</a>
     </section>
        

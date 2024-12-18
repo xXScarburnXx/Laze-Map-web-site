@@ -60,8 +60,8 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --primary-color:  #E6007E;
-  --secondary-color: #08c455;
+  --primary-color:  #aee5cd;
+  --secondary-color: #5bada9;
   --black-color: #292929;
   --light-black-color: #343536;
   --dark-color: #313131;
@@ -77,6 +77,10 @@ CSS STRUCTURE:
   --bs-light-rgb: rgba(255, 255, 255, 1);
   --bs-dark-rgb: 41, 41, 41;
   --bs-primary-rgb: 178, 142, 113;
+}
+
+.producto-texto{
+  color:  #5bada9 !important; 
 }
 
 /* Fonts */
@@ -214,7 +218,7 @@ h5,
 h6 {
   color: var(--dark-color);
   font-family: var(--heading-font);
-  text-transform: capitalize;
+
   font-weight: 600;
   letter-spacing: 0.84px;
   line-height: 115%;
@@ -479,7 +483,7 @@ h6 {
 /* 4.1 Header
 /*----------------------------------------------*/
 a.nav-link {
-  text-transform: capitalize;
+
   font-weight: 500;
   color: var(--dark-color);
   font-family: var(--heading-font);
@@ -689,14 +693,11 @@ iconify-icon.quote {
   color: var(--primary-color);
 }
 
-.producto{
-  background-color: #E6007E;
-}
+
+
 
 /* Definir el color primario de la marca */
-:root {
-  --primary-color: #E6007E; /* Rosa corporativo */
-}
+
 
 /* Estilo para la clase link-section con fondo rosa */
 .link-section {
